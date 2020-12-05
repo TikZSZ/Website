@@ -36,6 +36,7 @@ h1{
     margin:0 auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 300%;
+    margin-top: 7%;
 
 
 }
@@ -162,8 +163,8 @@ h3{
     right: 4%;
     float: left;
     margin-top: 8%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    margin-right: 8%;
+    margin-bottom: 7%;
 
 
 }
@@ -174,8 +175,8 @@ h3{
     right: 4%;
     float: right;
     margin-top: 8%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    margin-left: 9%;
+    margin-bottom: 8%;
 
 }
 .aditya{
