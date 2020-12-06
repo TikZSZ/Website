@@ -3,34 +3,25 @@ body{
     text-align: center;
     margin: 0;
     font-family: 'Merriweather', serif;
+    color:#40514E;
+
 
 }
+p{
+    line-height: 2;
+    margin-bottom: 0;
+}
+
 
 a{
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 0 5%;
 }
-a:link { color:#150485;}          /* Unvisited links */
-a:visited { color:#150485; }     /* Visited links */
-a:hover { color:#01c5c4; }  /* Hovered links */
-a:active { color: #01c5c4; }         /* Active links */
-
-
-.btn{
-    background-color: #150485;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 100%;
-
-    
-}
-
-.btn:link { color:#01c5c4}          /* Unvisited links */
-.btn:visited { color:#01c5c4; }     /* Visited links */
-.btn:hover { color:blue; }  /* Hovered links */
-.btn:active { color: red; }  
+a:link { color:#01c5c4;}          /* Unvisited links */
+a:visited { color:#01c5c4; }     /* Visited links */
+a:hover { color:#150485; }  /* Hovered links */
+a:active { color:#150485; }         /* Active links */
 
 
 
@@ -39,11 +30,10 @@ ul{
 }
 
 hr{
-    margin:5% auto 0 auto;
-    border-top: 5px  grey;
+    margin:3% auto 0 auto;
+    border-top: 5px  #EAF6F6;
     border-style: dotted    none none none;
-    width: 20%;
-    opacity: 40%;
+    width: 15%;
 }
 
 h1{
@@ -118,8 +108,9 @@ h3{
 
 }
 .image1{
-    height: auto;
+    height: 6%;
     width: auto;
+    max-height: 80%;
     position: absolute;
     right: 3%;
     top: 25%;
@@ -127,8 +118,9 @@ h3{
 
 
 .image2{
-    height: auto;
+    height: 6%;
     width: auto;
+    max-height: 80%;
     position: absolute;
     bottom: 40%;
     left: 3%;
@@ -198,19 +190,47 @@ h3{
 .aditya{
     height: 200px;
     border-radius: 100%;
-    margin-top:1%;
+    margin-top:5%;
 
-}
-
-.bottom-container{
-    background-color: #8ad7c1;
-    color: black;
-    
 }
 .contact-me{
     background-color: white;
 }
-p{
-    line-height: 2;
-    margin-bottom: 0;
+
+
+.bottom-container{
+    background-color: #c6fced;
+    color: black;
+    
 }
+.copyright{
+    color:#01c5c4;
+    margin-left: 5%;
+    font-size: 0.75rem;
+}
+.btn {
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    color: #150485;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px;
+    background-color: #01C5C4;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 3%;
+ }
+ 
+ .btn:hover {
+    background: #01C5C4;
+    border: solid #FFFFFF 1px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    text-decoration: none;
+ }
