@@ -4,6 +4,7 @@ body{
     margin: 0;
     font-family: 'Merriweather', serif;
     color:#40514E;
+    zoom: 90%;
 
 
 }
@@ -225,7 +226,7 @@ h3{
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    margin-right: 3%;
+    margin-right: 5%;
  }
  
  .btn:hover {
